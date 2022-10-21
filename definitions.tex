@@ -1,0 +1,37 @@
+\def\autor{NOMBRE DEL AUTOR}
+\def\titulo{TITULO DEL TRABAJO}
+\def\director{NOMBRE DIRECTOR}
+\def\codirector{NOMBRE CODIRECTOR}
+\def\universidad{Universidad Industrial de Santander}
+\def\escuela{Escuela de NOMBRE DE LA ESCUELA}
+\def\facultad{Facultad de NOMBRE DE LA FACULTAD}
+\def\grupo{Grupo de Investigación en Diseño de Algoritmos y Procesamiento de Datos Multidimensionales (HDSP)}
+\def\fecha{<NUMERO AÑO>}
+\def\codigo{CODIGO ESTUDIANTE}
+
+\DeclareMathOperator*{\minimize}{minimizar} % Declaración operador minimize
+
+\DeclareMathOperator*{\maximize}{maximizar} % Declaración operador maximize
+\DeclareMathOperator*{\subjectto}{sujeto \ a} % Declaración operador subjectto
+\DeclareMathOperator*{\argmax}{arg \ max} % Declaración operador arg max
+
+\DeclareMathOperator*{\argmin}{arg \ min} % Declaración operador arg min
+
+%\DeclareMathOperator*{\min}{min} % Declaración operador min
+
+\newtheorem{definition}{Definición}% Declaración segmento definición matemática
+
+%\DefineBibliographyStrings{spanish}{andothers={et~al\adddot}}
+% Traducción de palabras reservadas del algoritmo a español
+\newenvironment{algoritmo}[1][]
+  {\begin{algorithm}[#1]
+     \selectlanguage{spanish}%
+     \floatname{algorithm}{Algoritmo}%
+     \renewcommand{\algorithmicif}{\textbf{si}}%
+     \renewcommand{\algorithmicthen}{\textbf{entonces}}%
+     \renewcommand{\algorithmicend}{\textbf{fin}}%
+     \renewcommand{\algorithmicfor}{\textbf{para}}%
+     \renewcommand{\algorithmicdo}{\textbf{hacer}}%
+     % Set other language requirements
+  }
+  {\end{algorithm}}
