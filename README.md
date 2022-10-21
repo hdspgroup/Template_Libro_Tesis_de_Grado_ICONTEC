@@ -1,6 +1,7 @@
 # Template Libro de Tesis de Grado en formato ICONTEC
 
 NOMBRE DEL AUTOR, NUMERO AÑO
+
 NOMBRE DEL PROGRAMA
 
 Proyecto en LATEX correspondiente al libro de mi tesis de de pregrado titulada "TITULO DEL TRABAJO"
