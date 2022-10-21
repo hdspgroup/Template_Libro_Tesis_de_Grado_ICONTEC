@@ -1,4 +1,4 @@
-# Template Libro de Tesis de Grado en formato ICONTEC
+# Template Libro de Tesis de Grado (Pregrado) en formato ICONTEC
 
 NOMBRE DEL AUTOR, NUMERO AÑO
 
