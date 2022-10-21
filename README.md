@@ -1,6 +1,4 @@
-# Template_Libro_Tesis_de_Grado_ICONTEC
-
-Template Libro de Proyecto de Grado, formato ICONTEC
+# Template Libro de Tesis de Grado en formato ICONTEC
 
 NOMBRE DEL AUTOR, NUMERO AÑO
 NOMBRE DEL PROGRAMA
